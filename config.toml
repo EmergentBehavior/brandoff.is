@@ -34,7 +34,7 @@ paginate = 10
     # Changes sidebar background and link/accent colours.
     # See below for more colour options.
     # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-    theme = "theme-base-0c"
+    theme = "theme-base-0b"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
@@ -46,7 +46,7 @@ paginate = 10
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Blog".
-    home = "Blog"
+    home = "blog"
 
     # Metadata used to drive integrations.
     gravatarHash = "91f82e0f3d9fa209137df6234e4c391f"
