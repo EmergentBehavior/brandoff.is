@@ -1,8 +1,9 @@
 +++
 date = "2014-04-02T10:40:24+03:00"
-draft = true
 title = "The 'Evolutionary Nomad' Ladder to Success"
-
+description = "Using fitness landscapes to rethink career progression."
+keywords = ["fitness landscape", "fitness landscapes", "evolutionary"]
+categories = ["complex systems", "evolutionary algorithms"]
 +++
 {{% figure src="/img/misty-peaks.jpg" title="The misty peaks of Krabi, Thailand. (Credit: Vyacheslav Argenberg)" %}}
 

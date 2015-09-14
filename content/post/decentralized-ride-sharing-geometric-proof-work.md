@@ -1,8 +1,9 @@
 +++
 date = "2015-01-31T11:16:59+03:00"
-draft = true
 title = "A 'Mining' System for Decentralized Ride Sharing Networks"
-
+description = "Musings on how to build a decentralized ride-sharing network."
+keywords = ["bitcoin", "decentralization", "ridesharing", "LaZooz", "proof-of-work"]
+categories = ["bitcoin", "decentralization"]
 +++
 ![Ride Sharing and Geometric Proof of Work](/img/neon-and-signs-on-buildings-with-busy-traffic-at-night.jpg)
 

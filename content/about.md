@@ -1,7 +1,8 @@
 +++
 date = "2015-09-14T10:30:33+03:00"
-draft = true
 title = "about me"
+description = "About me and how to get in touch."
+keywords = ["josh brandoff", "about", "blog", "contact"]
 menu = "main"
 +++
 I am an entrepreneur and full-stack developer using biologically-inspired computational and mathematical modeling techniques to architect adaptive software, data visualizations, and decentralized technology solutions. I’m Co-founder & Lead Engineer at [Wade & Wendy](http://www.wecrewt.com/), where we are enabling frictionless communication & collaboration across venture-backed companies.
