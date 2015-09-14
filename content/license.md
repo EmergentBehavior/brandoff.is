@@ -1,0 +1,1 @@
+&copy; 2015 Josh Brandoff. All rights reserved.

@@ -1,0 +1,60 @@
+baseurl = "http://joshua.is/"
+title = "Josh Brandoff"
+languageCode = "en-US"
+disqusShortname = "brandoff"
+MetaDataFormat = "toml"
+theme = "hyde-x"
+paginate = 10
+
+[author]
+    name = "Josh Brandoff"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/blog/:title/"
+
+[taxonomies]
+    # Optional. Use if you want tags and lists.
+    category = "categories"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = false
+
+    # Used when a given page doesn't set its own.
+    defaultDescription = "biologically-inspired, mathematically-inclined developer"
+    defaultKeywords = "brandoff,josh brandoff,joshua brandoff,wade and wendy,emergentbehavior,jbrandoff"
+
+    # Changes sidebar background and link/accent colours.
+    # See below for more colour options.
+    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-0c"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "sunburst"
+
+    # Displays under the author name in the sidebar, keep it short.
+    # You can use markdown here.
+    tagline = "biologically-inspired, mathematically-inclined developer"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Blog".
+    home = "Blog"
+
+    # Metadata used to drive integrations.
+    gravatarHash = "91f82e0f3d9fa209137df6234e4c391f"
+
+    # Sidebar social links, these must be full URLs.
+    github = "https://github.com/emergentbehavior"
+    linkedin = "https://www.linkedin.com/in/brandoff"
+    twitter = "https://twitter.com/jbrandoff"
+
+    # Other social-like sidebar links
+    rss = false  # switch to true to enable RSS icon link
