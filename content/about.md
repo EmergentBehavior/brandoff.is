@@ -10,4 +10,3 @@ I'm the Co-founder and Lead Engineer at [Wade & Wendy](http://wadeandwendy.ai), 
 I'm deeply interested in complex systems, emergent behavior and distributed or decentralized systems and have [published work](http://link.springer.com/chapter/10.1007%2F978-3-642-20760-0_4) on genetic stigmergy, a biologically-inspired algorithm that supports self-organization of robotic swarms. I've also studied permaculture design with [Andrew Faust](http://www.permaculturenewyork.com/).
 
 My current languages of choice include Go, Python, Clojure and ES6/ES7-style JavaScript. Always be testin'.
-+
