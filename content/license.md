@@ -13,7 +13,7 @@ All non-code blog content is licensed under [Creative Commons BY-NC-ND 4.0](http
 All source code files and snippets found on this blog, unless otherwise explicitly noted, are licensed under the terms below.
 
 ``` html
-Copyright 2015 Joshua Brandoff
+Copyright 2016 Joshua Brandoff
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

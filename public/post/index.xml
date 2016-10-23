@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Josh Brandoff</title>
-    <link>http://joshua.is/post/</link>
-    <description>Recent content in Posts on Josh Brandoff</description>
+    <title>Post-rsses on Josh Brandoff</title>
+    <link>http://joshua.is/post/index.xml</link>
+    <description>Recent content in Post-rsses on Josh Brandoff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 31 Jan 2015 11:16:59 +0300</lastBuildDate>
@@ -64,7 +64,7 @@
 
 &lt;p&gt;So, there you have it, my off-the-cuff framework for a drive-sharing reward system using “geometric” proof-of-work! I hope these ideas inspire others to develop more well thought-out systems that take advantage of physical location.&lt;/p&gt;
 
-&lt;h2 id=&#34;addendum:fef78ab5bcf85cda272434917988b110&#34;&gt;Addendum&lt;/h2&gt;
+&lt;h2 id=&#34;addendum&#34;&gt;Addendum&lt;/h2&gt;
 
 &lt;p&gt;As a possible alternative to the fixed-radius, near neighbor problem, you could consider creating some kind of challenge based off of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Three-body_problem#n-body_problem&#34;&gt;n-body problem&lt;/a&gt;, where each moving entity in the cluster is modeled as a particle.&lt;/p&gt;
 </description>
@@ -92,7 +92,7 @@
 &lt;/figure&gt;
 
 
-&lt;h2 id=&#34;the-road-to-success-is-dead-long-live-the-roads-to-success:799adb4f1471c29dacd499583c16cb71&#34;&gt;The road to success is dead. Long live the &lt;em&gt;roads&lt;/em&gt; to success.&lt;/h2&gt;
+&lt;h2 id=&#34;the-road-to-success-is-dead-long-live-the-roads-to-success&#34;&gt;The road to success is dead. Long live the &lt;em&gt;roads&lt;/em&gt; to success.&lt;/h2&gt;
 
 &lt;p&gt;Back in 2012, The Wall Street Journal announced that Goldman Sachs would be &lt;a href=&#34;http://online.wsj.com/news/articles/SB10000872396390443524904577649830558256586&#34;&gt;scaling back its junior analyst program&lt;/a&gt;. Two year contracts for college grads? Gone. A bonus for completing the program? Nope. For a generation, these analyst positions were a secure first step onto the ladder of success for many financial graduates. Not anymore. Thanks to ongoing global financial turmoil, the times, they are a changin’.&lt;/p&gt;
 

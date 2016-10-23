@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Josh Brandoff</title>
-    <link>http://joshua.is/</link>
+    <link>http://joshua.is/index.xml</link>
     <description>Recent content on Josh Brandoff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;I&amp;rsquo;m deeply interested in complex systems, emergent behavior and distributed or decentralized systems and have &lt;a href=&#34;http://link.springer.com/chapter/10.1007%2F978-3-642-20760-0_4&#34;&gt;published work&lt;/a&gt; on genetic stigmergy, a biologically-inspired algorithm that supports self-organization of robotic swarms. I&amp;rsquo;ve also studied permaculture design with &lt;a href=&#34;http://www.permaculturenewyork.com/&#34;&gt;Andrew Faust&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;My current languages of choice include Go, Python, Clojure and ES6/ES7-style JavaScript. Always be testin&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;My current languages of choice are Clojure, Clojurescript, and Golang. I also dig Python and ES6/ES7-style JavaScript.&lt;/p&gt;
 </description>
     </item>
     
@@ -31,15 +31,15 @@
       <guid>http://joshua.is/license/</guid>
       <description>
 
-&lt;h3 id=&#34;content-license:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Content license&lt;/h3&gt;
+&lt;h3 id=&#34;content-license&#34;&gt;Content license&lt;/h3&gt;
 
 &lt;p&gt;All non-code blog content is licensed under &lt;a href=&#34;http://creativecommons.org/licenses/by-nc-nd/4.0/&#34;&gt;Creative Commons BY-NC-ND 4.0&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;code-license:53e892b8b41cc4caece1cfd5ef21d6e7&#34;&gt;Code license&lt;/h3&gt;
+&lt;h3 id=&#34;code-license&#34;&gt;Code license&lt;/h3&gt;
 
 &lt;p&gt;All source code files and snippets found on this blog, unless otherwise explicitly noted, are licensed under the terms below.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;Copyright 2015 Joshua Brandoff
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;Copyright 2016 Joshua Brandoff
 
 Licensed under the Apache License, Version 2.0 (the &amp;quot;License&amp;quot;);
 you may not use this file except in compliance with the License.
@@ -111,7 +111,7 @@ limitations under the License.
 
 &lt;p&gt;So, there you have it, my off-the-cuff framework for a drive-sharing reward system using “geometric” proof-of-work! I hope these ideas inspire others to develop more well thought-out systems that take advantage of physical location.&lt;/p&gt;
 
-&lt;h2 id=&#34;addendum:fef78ab5bcf85cda272434917988b110&#34;&gt;Addendum&lt;/h2&gt;
+&lt;h2 id=&#34;addendum&#34;&gt;Addendum&lt;/h2&gt;
 
 &lt;p&gt;As a possible alternative to the fixed-radius, near neighbor problem, you could consider creating some kind of challenge based off of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Three-body_problem#n-body_problem&#34;&gt;n-body problem&lt;/a&gt;, where each moving entity in the cluster is modeled as a particle.&lt;/p&gt;
 </description>
@@ -139,7 +139,7 @@ limitations under the License.
 &lt;/figure&gt;
 
 
-&lt;h2 id=&#34;the-road-to-success-is-dead-long-live-the-roads-to-success:799adb4f1471c29dacd499583c16cb71&#34;&gt;The road to success is dead. Long live the &lt;em&gt;roads&lt;/em&gt; to success.&lt;/h2&gt;
+&lt;h2 id=&#34;the-road-to-success-is-dead-long-live-the-roads-to-success&#34;&gt;The road to success is dead. Long live the &lt;em&gt;roads&lt;/em&gt; to success.&lt;/h2&gt;
 
 &lt;p&gt;Back in 2012, The Wall Street Journal announced that Goldman Sachs would be &lt;a href=&#34;http://online.wsj.com/news/articles/SB10000872396390443524904577649830558256586&#34;&gt;scaling back its junior analyst program&lt;/a&gt;. Two year contracts for college grads? Gone. A bonus for completing the program? Nope. For a generation, these analyst positions were a secure first step onto the ladder of success for many financial graduates. Not anymore. Thanks to ongoing global financial turmoil, the times, they are a changin’.&lt;/p&gt;
 
