@@ -1,5 +1,5 @@
 +++
-date = "2015-09-14T10:30:33+03:00"
+date = "2017-01-01T10:30:33+03:00"
 title = "about me"
 description = "About me and how to get in touch."
 keywords = ["josh brandoff", "about", "blog", "contact"]

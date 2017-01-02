@@ -6,13 +6,13 @@
     <description>Recent content on Josh Brandoff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 14 Sep 2015 10:30:33 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 10:30:33 +0300</lastBuildDate>
     <atom:link href="http://joshua.is/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>about me</title>
       <link>http://joshua.is/about/</link>
-      <pubDate>Mon, 14 Sep 2015 10:30:33 +0300</pubDate>
+      <pubDate>Sun, 01 Jan 2017 10:30:33 +0300</pubDate>
       
       <guid>http://joshua.is/about/</guid>
       <description>&lt;p&gt;I am a mathematically-inclined entrepreneur and engineer of biologically-inspired, intelligent, and distributed systems. I was recently the Co-founder and CTO at &lt;a href=&#34;http://wadeandwendy.ai&#34;&gt;Wade &amp;amp; Wendy&lt;/a&gt;, a venture-backed startup in NYC building artificially intelligent personalities that grow real relationships through conversation. Previously, I was a Core Developer at &lt;a href=&#34;http://storj.io/&#34;&gt;Storj&lt;/a&gt;, a Bitcoin-based decentralized storage platform, and the Lead Developer at &lt;a href=&#34;http://harmony-institute.org&#34;&gt;Harmony Institute&lt;/a&gt;, an interdisciplinary research center exploring the science of narrative media. Before that, I was the founding technologist at the National Museum of Mathematics. For several years, I also imported, promoted and distributed a rose-based sweet to every state in the U.S.&lt;/p&gt;
@@ -26,7 +26,7 @@
     <item>
       <title>License</title>
       <link>http://joshua.is/license/</link>
-      <pubDate>Mon, 14 Sep 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://joshua.is/license/</guid>
       <description>
@@ -39,7 +39,7 @@
 
 &lt;p&gt;All source code files and snippets found on this blog, unless otherwise explicitly noted, are licensed under the terms below.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;Copyright 2016 Joshua Brandoff
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;Copyright 2017 Joshua Brandoff
 
 Licensed under the Apache License, Version 2.0 (the &amp;quot;License&amp;quot;);
 you may not use this file except in compliance with the License.

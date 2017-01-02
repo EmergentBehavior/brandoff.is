@@ -1,5 +1,5 @@
 +++
-date = "2015-09-14"
+date = "2017-01-01"
 title = "License"
 description = "License for the contents of this website and blog"
 keywords = ["license", "blog", "code"]
@@ -13,7 +13,7 @@ All non-code blog content is licensed under [Creative Commons BY-NC-ND 4.0](http
 All source code files and snippets found on this blog, unless otherwise explicitly noted, are licensed under the terms below.
 
 ``` html
-Copyright 2016 Joshua Brandoff
+Copyright 2017 Joshua Brandoff
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
