@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Evolutionary Algorithms on Josh Brandoff</title>
-    <link>http://joshua.is/categories/evolutionary-algorithms/index.xml</link>
+    <link>http://brandoff.is/categories/evolutionary-algorithms/index.xml</link>
     <description>Recent content in Evolutionary Algorithms on Josh Brandoff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <atom:link href="http://joshua.is/categories/evolutionary-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://brandoff.is/categories/evolutionary-algorithms/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The &#39;Evolutionary Nomad&#39; Ladder to Success</title>
-      <link>http://joshua.is/blog/the-evolutionary-nomad-ladder-to-success/</link>
+      <link>http://brandoff.is/blog/the-evolutionary-nomad-ladder-to-success/</link>
       <pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate>
       
-      <guid>http://joshua.is/blog/the-evolutionary-nomad-ladder-to-success/</guid>
+      <guid>http://brandoff.is/blog/the-evolutionary-nomad-ladder-to-success/</guid>
       <description>
 
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://joshua.is/img/misty-peaks.jpg&#34; /&gt;
+        &lt;img src=&#34;http://brandoff.is/img/misty-peaks.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -57,7 +57,7 @@
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://joshua.is/img/fitness-landscape.jpg&#34; /&gt;
+        &lt;img src=&#34;http://brandoff.is/img/fitness-landscape.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;

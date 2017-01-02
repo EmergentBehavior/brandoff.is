@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://joshua.is/about/</loc>
+    <loc>http://brandoff.is/about/</loc>
     <lastmod>2017-01-01T10:30:33+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://joshua.is/license/</loc>
+    <loc>http://brandoff.is/license/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://joshua.is/blog/a-mining-system-for-decentralized-ride-sharing-networks/</loc>
+    <loc>http://brandoff.is/blog/a-mining-system-for-decentralized-ride-sharing-networks/</loc>
     <lastmod>2015-01-31T11:16:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://joshua.is/blog/the-evolutionary-nomad-ladder-to-success/</loc>
+    <loc>http://brandoff.is/blog/the-evolutionary-nomad-ladder-to-success/</loc>
     <lastmod>2014-04-02T10:40:24+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://joshua.is/categories/bitcoin/</loc>
-    <lastmod>2015-01-31T11:16:59+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://joshua.is/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://joshua.is/categories/complex-systems/</loc>
-    <lastmod>2014-04-02T10:40:24+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://joshua.is/categories/decentralization/</loc>
+    <loc>http://brandoff.is/categories/bitcoin/</loc>
     <lastmod>2015-01-31T11:16:59+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshua.is/categories/evolutionary-algorithms/</loc>
+    <loc>http://brandoff.is/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://brandoff.is/categories/complex-systems/</loc>
     <lastmod>2014-04-02T10:40:24+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshua.is/</loc>
+    <loc>http://brandoff.is/categories/decentralization/</loc>
+    <lastmod>2015-01-31T11:16:59+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://brandoff.is/categories/evolutionary-algorithms/</loc>
+    <lastmod>2014-04-02T10:40:24+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://brandoff.is/</loc>
     <lastmod>2017-01-01T10:30:33+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://joshua.is/post/</loc>
+    <loc>http://brandoff.is/post/</loc>
     <lastmod>2015-01-31T11:16:59+03:00</lastmod>
     <priority>0</priority>
   </url>
