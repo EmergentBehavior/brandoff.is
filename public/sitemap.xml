@@ -2,16 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://brandoff.is/about/</loc>
-    <lastmod>2017-01-01T10:30:33+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://brandoff.is/license/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://brandoff.is/post/decentralized-ride-sharing-geometric-proof-work/</loc>
     <lastmod>2015-01-31T11:16:59+03:00</lastmod>
   </url>
@@ -52,7 +42,7 @@
   
   <url>
     <loc>http://brandoff.is/</loc>
-    <lastmod>2017-01-01T10:30:33+03:00</lastmod>
+    <lastmod>2015-01-31T11:16:59+03:00</lastmod>
     <priority>0</priority>
   </url>
   

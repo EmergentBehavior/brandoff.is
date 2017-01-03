@@ -44,49 +44,48 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "about"
-    content = "I've worn many hats throughout my career. Recently, I was  the Co-Founder and CTO of [Wade &amp; Wendy](http://wadeandwendy.ai), a venture-backed startup in NYC building **artificially intelligent** personalities that grow professional relationships through **conversation**. Previously, I was a Core Developer at [Storj](http://storj.io), a **Bitcoin**-based **decentralized storage** platform, and the Lead Developer at [Harmony Institute](http://harmony-institute.org), an interdisciplinary research center exploring the science of **narrative media**. Before that, I also **managed technology** at the [National Museum of Mathematics](https://en.wikipedia.org/wiki/Museum_of_Mathematics) through its grand opening.<br/><br/> I'm deeply interested in **complex systems science**, **emergent behavior**, and **distributed** or **decentralized systems** and have [published work](http://link.springer.com/chapter/10.1007%2F978-3-642-20760-0_4) on genetic stigmergy, a **biologically-inspired algorithm** that supports **self-organization** of robotic swarms. I've also studied **permaculture** design with [Andrew Faust](http://www.permaculturenewyork.com/).<br/><br/>My current languages of choice are **Clojure**, **ClojureScript**, **Golang**, **Python**, and **JavaScript**. I'm fluent with **Linux**, **AWS**, and **containers**."
+    content = "I'm an experienced full-stack engineer, technology leader, and software architect who loves a challenge. Recently, I was  the Co-Founder and CTO of [Wade &amp; Wendy](http://wadeandwendy.ai), a venture-backed startup in NYC building **artificially intelligent** personalities that grow professional relationships through **conversation**. Previously, I was a Core Developer and [whitepaper](https://storj.io/storj.pdf) co-author at [Storj](http://storj.io), a **Bitcoin**-based **decentralized storage** platform, and the Lead Developer at [Harmony Institute](http://harmony-institute.org), an interdisciplinary research center where I collaboratively built [StoryPilot](https://storypilot.org/) to explore the impact of **narrative media**.  I also **managed technology** at the [National Museum of Mathematics](https://en.wikipedia.org/wiki/Museum_of_Mathematics) through its grand opening.<br/><br/> I'm deeply interested in **complex systems science**, **emergent behavior**, and **distributed** or **decentralized systems** and have [published work](http://link.springer.com/chapter/10.1007%2F978-3-642-20760-0_4) on genetic stigmergy, a **biologically-inspired algorithm** that supports **self-organization** of robotic swarms. I've also studied **permaculture** design with [Andrew Faust](http://www.permaculturenewyork.com/).<br/><br/>My current languages of choice are **Clojure**, **ClojureScript**, **Golang**, **Python**, and **JavaScript**. I'm fluent with **Linux**, **AWS**, and **containers**.<br/><br/>I fervently enjoy karaoke, swimming, running, and making my infant daughter laugh. "
 
 	[params.portfolio]
-		hide  = true
-		title = "Recent Work"
+		hide  = false
+		title = "selected demos"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+      vid = "ytt28dU_92E"
+			title = "Storj: Decentralized Cloud Storage"
+			description = "Presented Storj at [Hedgeable](https://www.hedgeable.com/)'s 'Bitcoin: No Boundaries' event in NYC."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+      vid = "lFuflBdpAnE"
+			title = "Storj: DriveShare"
+			description = "Walkthrough of Storj's DriveShare software and my monitoring dashboard."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+      vid = "JmN2BzXPeH0"
+			title = "Aavya Health: NutriCart"
+			description = "Kiosk-based adaptive shopping cart that recommends products and services based on your health situation. "
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+      vid = "n-DBx1HTUtk"
+			title = "Acquatic Swarm 'Immune System'"
+			description = "Simulation of acquatic swarming robots using quorum sensing to detect contanimants and collectively notify human oversight."
+
+    [[params.portfolio.gallery]]
+      vid = "Kwq8KFeUf8g"
+      title = "Autonomous Swarm Robots Mapping Home"
+      description = "A simulated swarm of three dozen autonomous robots explore and map a complex home environment."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+      vid = "bQ67952nlvo"
+			title = "Evolution of Swarm Exploration Algorithms"
+			description = "Simplified visualization of a swarm of robots evolving strategies to explore an unknown map in real-time."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+      vid = "FVBrzJag6XI"
+			title = "MoMath: This is the Tetraxis!"
+			description = "Created music and contributed vocals for promotional 'This is the Tetraxis!' video. :)"
 
 	[params.recentposts]
 		hide  = false
