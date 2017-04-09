@@ -1,3 +1,3 @@
-[submodule "themes/hyde-x"]
-	path = themes/hyde-x
-	url = git@github.com:emergentbehavior/hyde-x
+[submodule "themes/hugo-strata-theme"]
+	path = themes/hugo-strata-theme
+	url = git@github.com:digitalcraftsman/hugo-strata-them

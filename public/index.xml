@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Josh Brandoff</title>
-    <link>http://brandoff.is/index.xml</link>
+    <link>/index.xml</link>
     <description>Recent content on Josh Brandoff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Jan 2015 11:16:59 +0300</lastBuildDate>
-    <atom:link href="http://brandoff.is/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A &#39;Mining&#39; System for Decentralized Ride Sharing Networks</title>
-      <link>http://brandoff.is/post/decentralized-ride-sharing-geometric-proof-work/</link>
+      <link>/post/decentralized-ride-sharing-geometric-proof-work/</link>
       <pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate>
       
-      <guid>http://brandoff.is/post/decentralized-ride-sharing-geometric-proof-work/</guid>
+      <guid>/post/decentralized-ride-sharing-geometric-proof-work/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://brandoff.is/img/neon-and-signs-on-buildings-with-busy-traffic-at-night.jpg&#34; alt=&#34;Ride Sharing and Geometric Proof of Work&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/neon-and-signs-on-buildings-with-busy-traffic-at-night.jpg&#34; alt=&#34;Ride Sharing and Geometric Proof of Work&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Today, I &lt;a href=&#34;http://www.fastcoexist.com/3041403/could-lazooz-be-the-ride-sharing-app-weve-been-waiting-for&#34;&gt;read about&lt;/a&gt; a project called &lt;a href=&#34;http://lazooz.org/&#34;&gt;La’Zooz&lt;/a&gt; that aims to truly decentralize the “ride-sharing” industry. Unlike Lyft or Uber, La’Zooz will utilize blockchain and cryptocurrency technologies to support their decentralized network. The token of reward and exchange in the La’Zooz world will be the ‘Zooz’.&lt;/p&gt;
 
@@ -72,16 +72,16 @@
     
     <item>
       <title>The &#39;Evolutionary Nomad&#39; Ladder to Success</title>
-      <link>http://brandoff.is/post/evolutionary-nomad-success/</link>
+      <link>/post/evolutionary-nomad-success/</link>
       <pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate>
       
-      <guid>http://brandoff.is/post/evolutionary-nomad-success/</guid>
+      <guid>/post/evolutionary-nomad-success/</guid>
       <description>
 
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://brandoff.is/img/misty-peaks.jpg&#34; /&gt;
+        &lt;img src=&#34;/img/misty-peaks.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -119,7 +119,7 @@
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://brandoff.is/img/fitness-landscape.jpg&#34; /&gt;
+        &lt;img src=&#34;/img/fitness-landscape.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;

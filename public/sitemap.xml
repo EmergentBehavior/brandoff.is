@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://brandoff.is/post/decentralized-ride-sharing-geometric-proof-work/</loc>
+    <loc>/post/decentralized-ride-sharing-geometric-proof-work/</loc>
     <lastmod>2015-01-31T11:16:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://brandoff.is/post/evolutionary-nomad-success/</loc>
+    <loc>/post/evolutionary-nomad-success/</loc>
     <lastmod>2014-04-02T10:40:24+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://brandoff.is/categories/bitcoin/</loc>
+    <loc>/categories/bitcoin/</loc>
     <lastmod>2015-01-31T11:16:59+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://brandoff.is/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://brandoff.is/categories/complex-systems/</loc>
-    <lastmod>2014-04-02T10:40:24+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://brandoff.is/categories/decentralization/</loc>
-    <lastmod>2015-01-31T11:16:59+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://brandoff.is/categories/evolutionary-algorithms/</loc>
+    <loc>/categories/complex-systems/</loc>
     <lastmod>2014-04-02T10:40:24+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://brandoff.is/</loc>
+    <loc>/categories/decentralization/</loc>
     <lastmod>2015-01-31T11:16:59+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://brandoff.is/post/</loc>
+    <loc>/categories/evolutionary-algorithms/</loc>
+    <lastmod>2014-04-02T10:40:24+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2015-01-31T11:16:59+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
     <lastmod>2015-01-31T11:16:59+03:00</lastmod>
     <priority>0</priority>
   </url>
