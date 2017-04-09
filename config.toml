@@ -1,4 +1,4 @@
-baseurl = "http://brandoff.is/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Josh Brandoff"
 theme = "hugo-strata-theme"
