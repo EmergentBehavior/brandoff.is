@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Decentralization on Josh Brandoff</title>
-    <link>/categories/decentralization/index.xml</link>
+    <link>/categories/decentralization/</link>
     <description>Recent content in Decentralization on Josh Brandoff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/decentralization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Jan 2015 11:16:59 +0300</lastBuildDate>
+    
+	<atom:link href="/categories/decentralization/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A &#39;Mining&#39; System for Decentralized Ride Sharing Networks</title>
@@ -14,59 +17,8 @@
       <pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate>
       
       <guid>/post/decentralized-ride-sharing-geometric-proof-work/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;/img/neon-and-signs-on-buildings-with-busy-traffic-at-night.jpg&#34; alt=&#34;Ride Sharing and Geometric Proof of Work&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Today, I &lt;a href=&#34;http://www.fastcoexist.com/3041403/could-lazooz-be-the-ride-sharing-app-weve-been-waiting-for&#34;&gt;read about&lt;/a&gt; a project called &lt;a href=&#34;http://lazooz.org/&#34;&gt;La’Zooz&lt;/a&gt; that aims to truly decentralize the “ride-sharing” industry. Unlike Lyft or Uber, La’Zooz will utilize blockchain and cryptocurrency technologies to support their decentralized network. The token of reward and exchange in the La’Zooz world will be the ‘Zooz’.&lt;/p&gt;
-
-&lt;p&gt;At the moment, La’Zooz allows drivers to “mine” Zooz using a mobile app as long as the app detects that the user is driving around. While I’ll admit that I haven’t dug too deeply into the technicals behind La’Zooz, I feel like there are several potential problems here. If La’Zooz holds a pool of Zooz and rewards driver/miners through individual reporting, malicious users could potentially forge GPS and other sensor data from their mobile devices.&lt;/p&gt;
-
-&lt;p&gt;However, because I’m passionate about decentralization and think a truly decentralized drive-sharing platform would be really cool, I decided to think on it a bit and came up with a potential mining and reward system for La’Zooz drivers and “riders” (i.e. potential passengers). The core of it involves a modified proof-of-work system that requires participants to solve a computational geometry problem called the &lt;a href=&#34;http://en.wikipedia.org/wiki/Fixed-radius_near_neighbors&#34;&gt;fixed radius near neighbor problem&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please bear in mind that &lt;strong&gt;this is only an incomplete, conceptual framework&lt;/strong&gt;. There are likely several challenges and issues with this framework, but I’m hoping it can inspire better and even more viable iterations or solutions.&lt;/p&gt;
-
-&lt;p&gt;For La’Zooz’s drive-sharing system to work properly, the creators have suggested that 100,000 people need to have the app open at the same time in approximately the same place. Because of this, it would make sense that the mining system involve the density of, and distance between, Zooz users within a certain defined area. By starting to think about interactions between multiple “Zoozers”, we open the door for potential consensus mechanisms that do not solely rely on the self-reported movement metrics of a single driver.&lt;/p&gt;
-
-&lt;p&gt;Rather than reward drivers based solely off of movement metrics, why not incorporate those metrics into a proof-of-work scheme? Bitcoin uses a proof-of-work mechanism that, at its core, involves miners deriving a hash below a target threshold. The lower the target threshold, the greater the mining difficulty. Conversely, the higher the threshold is, the lower the mining difficulty is. In the case of La’Zooz, we can use a more geometrically-based scheme that involves finding solutions to the aforementioned &lt;a href=&#34;http://en.wikipedia.org/wiki/Fixed-radius_near_neighbors&#34;&gt;fixed-radius near neighbors problem&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, let’s take a step back and examine the drive-sharing environment. We have two kinds of entities: moving entities and stationary entities. Moving entities are drivers and stationary entities are “riders” who are looking for a ride. All entities in the drive-sharing network are connected through some kind of P2P protocol and can use public-key cryptography to sign messages containing information about themselves, including GPS coordinates, elevation or altitude, and other miscellaneous data. Each entity has the capacity to broadcast such messages through some or all of the network (perhaps with the aid of a distributed hash table). Finally, we can use a mechanism similar to &lt;a href=&#34;https://en.bitcoin.it/wiki/Block_timestamp&#34;&gt;Bitcoin’s block timestamp&lt;/a&gt; to allow the network to come to a consensus on current time.&lt;/p&gt;
-
-&lt;p&gt;Normally, each entity will broadcast a signed message with their GPS location data to all other entities in the network. Other entities will keep these messages around only if the GPS locations are within a certain, standardized distance &amp;reg; of themselves. Even then, such messages will only be held for a certain time period (TP) before being discarded. This helps prevent data cache bloat.&lt;/p&gt;
-
-&lt;p&gt;A stationary user–or potential rider looking for a ride–can trigger what I will call a “mining challenge” to nearby drivers. To begin the mining challenge, the rider starts identifying nearby drivers (by their signed GPS messages) within a given radius &amp;reg;. R initially starts out as zero. R will increase, until the density of drivers within the given R reaches a Target Density Value (TDV). TDV is something that may be hardcoded into all La’Zooz clients. For reasons that will be clearer in subsequent paragraphs, this system involving TDV can allow mining “difficulty” to increase or decrease depending on the TDV:R ratio. The idea is that in areas with fewer drivers (D), the TDV is achieved with a larger R and low D. However, in areas with many drivers, TDV is reached with low R and high D.&lt;/p&gt;
-
-&lt;p&gt;Once the TDV is reached, the rider can broadcast a Mining Challenge Request (MCR) to all the drivers within R. The MCR includes the semantic IDs and public keys of all drivers within R of the rider (based on previous signed GPS messages). For a challenge to begin, each driver in the cluster must broadcast another signed message to all other potential participants indicating they agree to the challenge. This message (and every message) includes the GPS and elevation location data of the driver. These messages may also include a hash or hashes of all previous messages received as part of the MCR process.&lt;/p&gt;
-
-&lt;p&gt;Once everyone agrees and is in consensus, each driver in the cluster continues to sign and broadcast their location data to all others for a short period of time (maybe few minutes). After this time period has elapsed, the rider can use a heuristic of their choice to see if the GPS position history indicates that the other parties are actual drivers navigating real nearby terrain (e.g. mountains or city grid, etc.) at a given velocity.&lt;/p&gt;
-
-&lt;p&gt;If the rider is satisfied that all drivers are not cheating, he can prepare to issue the actual challenge, which will make use of the following pieces of data:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The most recently recorded and signed GPS locations and elevations of all drivers.&lt;/li&gt;
-&lt;li&gt;The GPS location and elevation of the rider, who is at the center of the cluster (based on initially reported locations).&lt;/li&gt;
-&lt;li&gt;The original cluster radius &amp;reg;.&lt;/li&gt;
-&lt;li&gt;The current network timestamp.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Note: To more fully decentralize the system, you could alternatively use a “consensus triangulation” system, where each entity in the cluster uses position information from other entities to confirm approximate locations.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The actual challenge will be to solve a computational geometry problem called the “fixed-radius, near neighbor problem.” (FRNNP) In this problem, we have as input a set of points in d-dimensional Euclidean space and a fixed distance, delta. One must design a data structure that, given a query point q, efficiently reports the points of the data structure that are within distance delta of q. In our case, d = 3 (since we are using three-dimensional space). Our query point, q, are the (GPS + elevation) coordinates of the rider. Our delta is R, the aforementioned radius. And the other points are the locations of all other drivers in the cluster. Before issuing the challenge, the rider will add a small, random perturbation to the position data to prevent anyone from getting a head start. In addition, the challenge can potentially implement a time limitation system so it is only ephemerally valid.&lt;/p&gt;
-
-&lt;p&gt;Now, back to our rider. The rider now issues the prepared and finalized time-stamped FRNNP challenge to all the other participating drivers in the cluster. Depending on the number of entities in the cluster (which could eventually be quite large, depending on popularity and density of the network), you can use different solution methods with varying efficacies. Some take advantage of GPUs (such as the &lt;a href=&#34;http://www.rchoetzlein.com/fluids3/?page_id=15&#34;&gt;counting sort&lt;/a&gt; method used by Fluids v.3). The framework would have to be tweaked such that the solution was still solvable by mobile computing devices in relatively reasonable amounts of time (few seconds to few minutes).&lt;/p&gt;
-
-&lt;p&gt;Whoever solves the problem first submits the verifiable, timestamped solution to all other entities in the cluster (including the rider). A token reward is now made tentatively available to the driver. However to finalize this transaction, the driver needs to come and pick up the rider. If the rider verifies that the driver picks him up, he can sign a message indicating as such. In addition, a certain proportion of the cluster (perhaps 50%) of non-winning drivers could additionally trace the location of driver and rider to ensure they are traveling together. In this case, if they are satisfied, they can digitally sign and share their approval. There should be a mechanism that rewards non-winning drivers with a (possibly much) smaller reward for helping to verify the winner.&lt;/p&gt;
-
-&lt;p&gt;So, ultimately, the mining reward could be a partial (or potentially full) payment for the subsequent ride.&lt;/p&gt;
-
-&lt;p&gt;Series of transactions could be chained together (by including the hash of previous cluster interactions) and completed challenges could be posted to a more permanent blockchain ledger (either a separate one, or perhaps through Bitcoin via a sidechain or treechain mechanism, etc.). Such a chaining and blockchain recording mechanism would certainly need to be thought through more, but the idea is that such a blockchain could be used for disputes. Series of hashed consensus approval messages could be included, but the history should be recorded such that to “modify” it you would have to recompute all the previous challenges (which could ultimately number in the millions or more if the service becomes popular).&lt;/p&gt;
-
-&lt;p&gt;So, there you have it, my off-the-cuff framework for a drive-sharing reward system using “geometric” proof-of-work! I hope these ideas inspire others to develop more well thought-out systems that take advantage of physical location.&lt;/p&gt;
-
-&lt;h2 id=&#34;addendum&#34;&gt;Addendum&lt;/h2&gt;
-
-&lt;p&gt;As a possible alternative to the fixed-radius, near neighbor problem, you could consider creating some kind of challenge based off of the &lt;a href=&#34;http://en.wikipedia.org/wiki/Three-body_problem#n-body_problem&#34;&gt;n-body problem&lt;/a&gt;, where each moving entity in the cluster is modeled as a particle.&lt;/p&gt;
-</description>
+      <description>Today, I read about a project called La’Zooz that aims to truly decentralize the “ride-sharing” industry. Unlike Lyft or Uber, La’Zooz will utilize blockchain and cryptocurrency technologies to support their decentralized network. The token of reward and exchange in the La’Zooz world will be the ‘Zooz’.
+At the moment, La’Zooz allows drivers to “mine” Zooz using a mobile app as long as the app detects that the user is driving around.</description>
     </item>
     
   </channel>
