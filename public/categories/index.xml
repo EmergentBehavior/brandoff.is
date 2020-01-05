@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Josh Brandoff</title>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Bitcoin</title>
+      <title>bitcoin</title>
       <link>/categories/bitcoin/</link>
       <pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate>
       
@@ -21,16 +21,7 @@
     </item>
     
     <item>
-      <title>Complex Systems</title>
-      <link>/categories/complex-systems/</link>
-      <pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate>
-      
-      <guid>/categories/complex-systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decentralization</title>
+      <title>decentralization</title>
       <link>/categories/decentralization/</link>
       <pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate>
       
@@ -39,7 +30,16 @@
     </item>
     
     <item>
-      <title>Evolutionary Algorithms</title>
+      <title>complex systems</title>
+      <link>/categories/complex-systems/</link>
+      <pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate>
+      
+      <guid>/categories/complex-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evolutionary algorithms</title>
       <link>/categories/evolutionary-algorithms/</link>
       <pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate>
       
