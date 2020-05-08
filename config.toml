@@ -137,7 +137,7 @@ paginate = 10
 	weight = 10
 
 [[menu.main]]
-  name = "pgp"
-  url = "https://keybase.io/brandoff"
+  name = "gpg"
+  url = "https://brandoff.is/gpg/2E02E9F001103FC5"
   weight = 20
 
