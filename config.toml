@@ -53,6 +53,12 @@ paginate = 10
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
+                image = "ComplexityExplained.pdf"
+                thumb = "thumbs/complexity_explained.png"
+                title = "[#ComplexityExplained](https://complexityexplained.github.io)"
+                description = "A collaborative project to educate the public about the nature and importance of complex systems science."
+
+		[[params.portfolio.gallery]]
       vid = "ytt28dU_92E"
 			title = "Storj: Decentralized Cloud Storage"
 			description = "Presented Storj at [Hedgeable](https://www.hedgeable.com/)'s 'Bitcoin: No Boundaries' event in NYC."
