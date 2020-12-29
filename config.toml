@@ -12,7 +12,7 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Josh Brandoff"
-	description = "biologically-inspired, mathematically-inclined developer"
+	description = "polyglot engineer, leader, product owner, and systems architect"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -26,7 +26,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "Polyglot engineer of **biologically-inspired**, **intelligent**, and **distributed** systems"
+		bio = "Polyglot engineer, leader, product owner, and systems architect with a 10+ year track record of success at transformative startups in the *healthcare*, *AI*, *cryptocurrency*, and *nonprofit* industries"
 		# The icons will be shown if you enter your username
 		twitter = "jbrandoff"
 		github = "emergentbehavior"
@@ -44,7 +44,8 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "about"
-    content = "I'm an experienced full-stack engineer, technology leader, and software architect who loves a challenge. I'm presently Head of Data at [Reify Health](https://www.reifyhealth.com/). I co-founded and served as CTO of [Wade &amp; Wendy](https://wadeandwendy.ai/), a venture-backed startup in NYC using **machine learning** to grow professional relationships with job candidates through **conversation**. Previously, I was a Core Developer and [V2 whitepaper](https://storj.io/storjv2.pdf) co-author at [Storj](http://storj.io), an **Ethereum**-based **decentralized storage** platform. I led web development at [Harmony Labs](http://harmonylabs.org), an interdisciplinary research center (turned incubator), where I collaboratively built StoryPilot] to explore the impact of **narrative media**. As one of the first hires of the [National Museum of Mathematics](https://momath.org), I **managed technology**  through MoMath's grand opening.<br/><br/> I'm deeply interested in **complex systems science**, **emergent behavior**, and **distributed** or **decentralized systems** and have [published work](http://link.springer.com/chapter/10.1007%2F978-3-642-20760-0_4) on genetic stigmergy, a **biologically-inspired algorithm** that supports **self-organization** of robotic swarms. My interest in biologically-inspired systems also led me to study **permaculture** design  with [Andrew Faust](http://www.permaculturenewyork.com/).<br/><br/>My languages of choice are **Clojure**, **ClojureScript**, **Golang**, **Python**, and **JavaScript**. I'm also fluent with **Linux**, **AWS**, and **containers**.<br/><br/>I fervently enjoy karaoke, swimming, running, and making my daughters laugh."
+                content = "I'm a seasoned engineer, technology leader, and architect who uses technology to bring visions to life. "
+    content = "I'm presently Head of Data at [Reify Health](https://reifyhealth.com), where we are building solutions to connect and empower the global *clinical trial ecosystem*. I co-founded and was CTO at [Wade & Wendy](https://wadeandwendy.ai), a *conversational AI* company which provides a personal career guide to candidates and automation technology to talent acquisition partners. I was an early Core Developer and whitepaper author at [Storj](storj.io), a *decentralized* cloud storage network using *Ethereum*, and Lead Developer at [Harmony Labs](https://harmonylabs.org), where we used *data science* to measure and support the positive impact of *media systems* on society. Additionally, I was the founding technologist at the award-winning [National Museum of Mathematics](https://momath.org) in NYC.<br><br> I'm deeply interested in **complex systems science**, **emergent behavior**, and **distributed** or **decentralized systems** and have [published work](http://link.springer.com/chapter/10.1007%2F978-3-642-20760-0_4) on genetic stigmergy, a **biologically-inspired algorithm** that supports **self-organization** of robotic swarms. My interest in biologically-inspired systems also led me to study **permaculture** design  with [Andrew Faust](http://www.permaculturenewyork.com/).<br/><br/>My programming languages of choice are **Clojure**, **ClojureScript**, **Golang**, **Python**, and **JavaScript**. I'm also fluent with **Linux**, **AWS**, and **GCP**.<br/><br/>I fervently enjoy *karaoke*, *swimming*, *running*, and making my daughters *laugh*."
 
 	[params.portfolio]
 		hide  = false
