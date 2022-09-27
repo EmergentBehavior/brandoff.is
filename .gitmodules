@@ -1,3 +1,6 @@
 [submodule "themes/hugo-strata-theme"]
 	path = themes/hugo-strata-theme
 	url = git@github.com:emergentbehavior/hugo-strata-theme
+[submodule "hugo-strata-theme"]
+	path = hugo-strata-theme
+	url = git@github.com:EmergentBehavior/hugo-strata-theme.git
