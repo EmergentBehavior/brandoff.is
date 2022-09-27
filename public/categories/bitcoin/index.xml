@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bitcoin on Josh Brandoff</title>
-    <link>/categories/bitcoin/</link>
-    <description>Recent content in bitcoin on Josh Brandoff</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 31 Jan 2015 11:16:59 +0300</lastBuildDate>
-    
-	<atom:link href="/categories/bitcoin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>A &#39;Mining&#39; System for Decentralized Ride Sharing Networks</title>
-      <link>/post/decentralized-ride-sharing-geometric-proof-work/</link>
-      <pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate>
-      
-      <guid>/post/decentralized-ride-sharing-geometric-proof-work/</guid>
-      <description>Today, I read about a project called La’Zooz that aims to truly decentralize the “ride-sharing” industry. Unlike Lyft or Uber, La’Zooz will utilize blockchain and cryptocurrency technologies to support their decentralized network. The token of reward and exchange in the La’Zooz world will be the ‘Zooz’.
-At the moment, La’Zooz allows drivers to “mine” Zooz using a mobile app as long as the app detects that the user is driving around.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bitcoin on Josh Brandoff</title><link>/categories/bitcoin/</link><description>Recent content in bitcoin on Josh Brandoff</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 31 Jan 2015 11:16:59 +0300</lastBuildDate><atom:link href="/categories/bitcoin/index.xml" rel="self" type="application/rss+xml"/><item><title>A 'Mining' System for Decentralized Ride Sharing Networks</title><link>/post/decentralized-ride-sharing-geometric-proof-work/</link><pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate><guid>/post/decentralized-ride-sharing-geometric-proof-work/</guid><description>Today, I read about a project called La’Zooz that aims to truly decentralize the “ride-sharing” industry. Unlike Lyft or Uber, La’Zooz will utilize blockchain and cryptocurrency technologies to support their decentralized network. The token of reward and exchange in the La’Zooz world will be the ‘Zooz’.
+At the moment, La’Zooz allows drivers to “mine” Zooz using a mobile app as long as the app detects that the user is driving around.</description></item></channel></rss>
