@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Josh Brandoff</title><link>/categories/</link><description>Recent content in Categories on Josh Brandoff</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 31 Jan 2015 11:16:59 +0300</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>bitcoin</title><link>/categories/bitcoin/</link><pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate><guid>/categories/bitcoin/</guid><description/></item><item><title>decentralization</title><link>/categories/decentralization/</link><pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate><guid>/categories/decentralization/</guid><description/></item><item><title>complex systems</title><link>/categories/complex-systems/</link><pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate><guid>/categories/complex-systems/</guid><description/></item><item><title>evolutionary algorithms</title><link>/categories/evolutionary-algorithms/</link><pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate><guid>/categories/evolutionary-algorithms/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Josh Brandoff</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Josh Brandoff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2015 11:16:59 +0300</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bitcoin</title>
+      <link>/categories/bitcoin/</link>
+      <pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate>
+      
+      <guid>/categories/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>decentralization</title>
+      <link>/categories/decentralization/</link>
+      <pubDate>Sat, 31 Jan 2015 11:16:59 +0300</pubDate>
+      
+      <guid>/categories/decentralization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>complex systems</title>
+      <link>/categories/complex-systems/</link>
+      <pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate>
+      
+      <guid>/categories/complex-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evolutionary algorithms</title>
+      <link>/categories/evolutionary-algorithms/</link>
+      <pubDate>Wed, 02 Apr 2014 10:40:24 +0300</pubDate>
+      
+      <guid>/categories/evolutionary-algorithms/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
