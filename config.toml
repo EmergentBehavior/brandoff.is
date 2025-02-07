@@ -28,7 +28,7 @@ paginate = 10
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "**complex systems imagineer**"
 		# The icons will be shown if you enter your username
-		twitter = "jbrandoff"
+		twitter = ""
 		github = "emergentbehavior"
 		dribbble = ""
 		facebook = ""
@@ -37,7 +37,7 @@ paginate = 10
 		linkedin = "https://linkedin.com/in/brandoff"
 
 		copyright = [
-			"&copy; 2024 Josh Brandoff"
+			"&copy; 2025 Josh Brandoff"
 		]
 
 
